@@ -1,9 +1,12 @@
+/* disable rounded corners and shadows for all elements */
 * {
     border-radius: 0px !important;
     box-shadow: none !important;
     text-shadow: none !important;
 }
 
+
+/* disable all different backgrounds */
 .flyover .activity.comment {
     border-bottom: 1px solid #BBB !important;
 }
@@ -16,37 +19,15 @@
     background: #989fa7 !important;
 }
 
-.panel .container {
-    border: none !important;
-}
-
-#maximizes_show {
-    top: 95px !important;
-}
-
-.window section.panels {
-    top: 99px !important;
-}
-
-.person_controls {
-    margin-top: 0px !important;
-}
-
-.state.button:after, a.state.button:after {
-    content: none !important;
-}
-
-.story .edit, .end_of_list, .accepted_stories_bar.done_bar label {
+.story .edit,
+.end_of_list,
+.accepted_stories_bar.done_bar label {
     background-image: none !important;
 }
 
-.story .preview {
-    border-top: none !important;
-    padding-bottom: 1px !important;
-    padding-top: 3px !important;
-}
 
-header .project.tabs {
+/* reduce the height of the header */
+header.project .project.tabs {
     display: none !important;
 }
 
@@ -59,8 +40,36 @@ header.project h1 {
     height: 23px !important;
 }
 
+header.project .person_controls {
+    margin-top: 0px !important;
+}
+
+#maximizes_show {
+    top: 95px !important;
+}
+
+.window section.panels {
+    top: 99px !important;
+}
+
+
+/* remove highlight and give stories a bit more room */
+.story .preview {
+    border-top: none !important;
+    padding-bottom: 1px !important;
+    padding-top: 3px !important;
+}
+
+
+/* reduce padding around panels */
 section.panels .table {
     padding-bottom: 0px !important;
     padding-left: 4px !important;
     padding-right: 4px !important;
+}
+
+
+/* remove highlight around buttons */
+.state.button:after, a.state.button:after {
+    content: none !important;
 }
