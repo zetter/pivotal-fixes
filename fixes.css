@@ -5,6 +5,9 @@
     text-shadow: none !important;
 }
 
+body {
+  background: #eee !important;
+}
 
 /* disable all different backgrounds */
 .flyover .activity.comment {
@@ -27,12 +30,9 @@
 
 
 /* reduce the height of the header */
-header.project .project.tabs {
-    display: none !important;
-}
-
 header.project {
     height: 91px !important;
+    border-bottom: none !important;
 }
 
 header.project h1 {
@@ -49,7 +49,7 @@ header.project .person_controls {
 }
 
 .window section.panels {
-    top: 99px !important;
+    top: 90px !important;
 }
 
 
