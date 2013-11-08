@@ -1,0 +1,6 @@
+This tweaks the look and behavior of Pivotal Tracker, tweaking the style and removing common annoyances.
+
++ Unclutter UI by removing outer shadows, text shadows, pinstripe backgrounds, textured backgrounds, extra borders and highlights.
++ Give a few pixels space to stories in in list
++ Reduce height of the header
++ Make it so when you click on a the text of a todo list item it toggles the checkbox like as if you were clicking on a label tag.

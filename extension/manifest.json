@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-
   "name": "Pivotal Fixes",
-  "description": "This tweaks the look and behavior of Pivotal Tracker",
+  "author": "Chris Zetter",
+  "description": "This tweaks the look and behaviour of Pivotal Tracker",
   "version": "1.0",
   "permissions": [
     "tabs", "https://www.pivotaltracker.com/"
